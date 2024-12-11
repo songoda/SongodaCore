@@ -14,6 +14,8 @@ import com.craftaro.core.nms.v1_21_R2.world.NmsWorldBorderImpl;
 import com.craftaro.core.nms.v1_21_R2.world.WorldCoreImpl;
 import com.craftaro.core.nms.world.NmsWorldBorder;
 import com.craftaro.core.nms.world.WorldCore;
+import net.minecraft.world.level.block.CrafterBlock;
+import org.bukkit.craftbukkit.v1_21_R2.inventory.util.CraftTileInventoryConverter;
 import org.jetbrains.annotations.NotNull;
 
 public class NmsImplementationsImpl implements NmsImplementations {
